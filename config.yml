@@ -1,14 +1,17 @@
-title: Irobot 1.1
-tagline: A brand new course on Learning Lab
-description: 'A short test for Irobot 1.1 '
-template:
+# title: Irobot 1.1
+# tagline: A brand new course on Learning Lab
+# description: 'A short test for Irobot 1.1 '
+# template:
+  
   repo: irobot-1.1-template
-  name: irobot-1.1
-  description: Irobot 1.1 beta
+   name: irobot-1.1
+    description: Irobot 1.1 beta
+
 before:
   - type: createIssue
     title: Hello sir!
     body: new-issue.md
+
 steps:
   - title: Create a branch for Irobot 1.1
     description: git init Irobot 1.1
