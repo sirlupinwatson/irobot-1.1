@@ -1,10 +1,11 @@
-title: Irobot 1.1
-tagline: A brand new course on Learning Lab
-description: 'A short test for Irobot 1.1 '
-template:
-  repo: irobot-1.1-template
-  name: irobot-1.1
-  description: Irobot 1.1 beta
+# title: Irobot 1.1
+# tagline: A brand new course on Learning Lab
+# description: 'A short test for Irobot 1.1 '
+# template:
+
+variables:
+  global_variable: value
+
 before:
   - type: createIssue
     title: Hello sir!
