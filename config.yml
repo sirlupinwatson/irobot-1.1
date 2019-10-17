@@ -5,14 +5,23 @@ template:
   repo: irobot-1.1-template
   name: irobot-1.1
   description: Irobot 1.1 beta
+
 before:
   - type: createIssue
-    title: Hello sir!
+    title: GoodBye sir!
     body: new-issue.md
+
+# Set variables once
+variables:
+  configuration: debug
+  platform: x64
+
 steps:
   - title: Create a branch for Irobot 1.1
     description: git init Irobot 1.1
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
-      - type: closeIssue
+    - type: closeIssue
+  
+      
